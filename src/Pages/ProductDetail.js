@@ -1,5 +1,7 @@
+import Product from "../Components/Product"
+
 const ProductDetail = () => {
-return(<p>Hello</p>)
+    return (<><Product /></>)
 }
 
 export default ProductDetail

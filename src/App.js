@@ -1,9 +1,13 @@
 
+import Header from './Components/Header';
 import ProductDetail from './Pages/ProductDetail';
 
 function App() {
   return (
-    <ProductDetail />
+    <section className="container">
+      <Header />
+      <ProductDetail />
+    </section>
   );
 }
 
