@@ -9,34 +9,34 @@
             "sizes": [
                 {"id":"s01", "displayName":"S", "value": "S", "selecetd": false, 
                     "colors": [
-                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c01.png", "inStock": true},
-                        {"id":"c02", "displayName":"Blue", "value": "#2f88a9", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c02.png", "inStock": true},
-                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c03.png", "inStock": true},
-                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c04.png", "inStock": false}
+                        {"id":"c01", "displayName":"Pink", "value": "#ec5b75", "selecetd": false, "imageUrl": "/images/products/p1/p1-c01.png", "inStock": true},
+                        {"id":"c02", "displayName":"Blue", "value": "#2f88a9", "selecetd": false, "imageUrl": "/images/products/p1/p1-c02.png", "inStock": true},
+                        {"id":"c03", "displayName":"Red", "value": "#eb4e1e", "selecetd": false, "imageUrl": "/images/products/p1/p1-c03.png", "inStock": true},
+                        {"id":"c04", "displayName":"Green", "value": "#65a34d", "selecetd": false, "imageUrl": "/images/products/p1/p1-c04.png", "inStock": false}
                     ]
                 },
                 {"id":"s02", "displayName":"M", "value": "m", "selecetd": false,
                     "colors": [
-                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c01.png", "inStock": false},
-                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c02.png", "inStock": true},
-                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c03.png", "inStock": true},
-                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c04.png", "inStock": false}
+                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c01.png", "inStock": false},
+                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c02.png", "inStock": true},
+                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c03.png", "inStock": true},
+                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c04.png", "inStock": false}
                     ]
                 },
                 {"id":"s03", "displayName":"L", "value": "l", "selecetd": false,
                     "colors": [
-                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c01.png", "inStock": true},
-                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c02.png", "inStock": true},
-                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c03.png", "inStock": false},
-                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c04.png", "inStock": true}
+                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c01.png", "inStock": true},
+                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c02.png", "inStock": true},
+                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c03.png", "inStock": false},
+                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c04.png", "inStock": true}
                     ]
                 },
                 {"id":"s04", "displayName":"XL", "value": "xl", "selecetd": false,
                     "colors": [
-                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c01.png", "inStock": false},
-                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c02.png", "inStock": true},
-                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c03.png", "inStock": false},
-                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "masterProductImg": "/images/products/p1/p1-c04.png", "inStock": false}
+                        {"id":"c01", "displayName":"Pink", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c01.png", "inStock": false},
+                        {"id":"c02", "displayName":"Blue", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c02.png", "inStock": true},
+                        {"id":"c03", "displayName":"Red", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c03.png", "inStock": false},
+                        {"id":"c04", "displayName":"Green", "value": "#000", "selecetd": false, "imageUrl": "/images/products/p1/p1-c04.png", "inStock": false}
                     ]
                 }
             ]

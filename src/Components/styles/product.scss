@@ -28,25 +28,26 @@
 .availableSizes {
   display: flex;
   align-items: center;
-  ul {
+  div {
     display: flex;
     padding: 0px 10px;
     margin: 0px;
-    li {
-      padding: 0px;
-      &::marker {
-        content: none;
-      }
-      button {
-        text-decoration: none;
-        font-weight: 100;
-        font-size: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        color: $secondaryColor;
-      }
+    button {
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+      color: $secondaryColor;
+      margin: 10px;
     }
   }
+}
+
+.selectedSize {
+  // border: 2px solid #000;
+  color: $selectedColor !important;
+  font-weight: 700 !important;
 }
 
 .availableColors {
@@ -63,7 +64,7 @@
 }
 
 .selectedColor {
-  border: 1px solid #000;
+  border: 2px solid #000;
 }
 
 .description {
