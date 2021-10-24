@@ -25,7 +25,7 @@
   }
 }
 
-.availableSize {
+.availableSizes {
   display: flex;
   align-items: center;
   ul {
@@ -46,5 +46,38 @@
         color: $secondaryColor;
       }
     }
+  }
+}
+
+.availableColors {
+  margin: 10px 0px;
+  > div {
+    display: flex;
+    button {
+      margin: 10px;
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+.selectedColor {
+  border: 1px solid #000;
+}
+
+.description {
+  margin-top: 20px;
+  > h4 {
+    font-weight: 700;
+    color: $secondaryColor;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  p {
+    color: $secondaryColor;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
   }
 }
