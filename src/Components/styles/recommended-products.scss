@@ -1,0 +1,27 @@
+@import "./../../Common/styles/variable.scss";
+.recommendedWrapper {
+  > h2 {
+    font-weight: 700;
+    color: $secondaryColor;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  margin-top: 50px;
+}
+.recommendedList {
+  display: flex;
+  > div {
+    &:first-child {
+      margin-left: 0px;
+    }
+    margin: 20px;
+    section {
+      width: 220px;
+      height: 250px;
+      cursor: pointer;
+      > img {
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,3 +1,4 @@
+@import "./../../Common/styles/variable.scss";
 .wrapper {
   > h1 {
     text-align: center;
@@ -12,6 +13,7 @@
       a {
         text-decoration: none;
         text-transform: uppercase;
+        color: $secondaryColor;
       }
     }
   }

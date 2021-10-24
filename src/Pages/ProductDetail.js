@@ -1,22 +1,33 @@
 import Product from "../Components/Product"
 import $ from 'jquery';
 import { useEffect, useState } from "react";
-// import {} from "./../Common/data.json"
+import RecommendedProducts from "../Components/RecommendedProducts";
+
 const ProductDetail = () => {
-    const [products, setproducts] = useState([])
+    const [products, setProducts] = useState([])
+    const [product, setProduct] = useState(null)
     useEffect(() => {
         $.ajax({
             url: './data.json',
             type: "GET",
             dataType: "json",
             success: function (data) {
-                console.log(data)
-                setproducts(data);
+                setProducts(data);
+                if (data && data.length > 0) {
+                    setProduct(data[0])
+                }
             }
         });
-        console.log('YES')
     }, [])
-    return (<><Product data={products[0]} /></>)
+
+    const getSelectedItem = (item) => {
+        setProduct(item);
+    }
+
+    return (<>
+        <Product data={product} productWithDetails={true} />
+        <RecommendedProducts products={products} passToParent={getSelectedItem} />
+    </>)
 }
 
 export default ProductDetail
