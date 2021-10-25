@@ -10,6 +10,8 @@
 }
 .recommendedList {
   display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
   > div {
     &:first-child {
       margin-left: 0px;
