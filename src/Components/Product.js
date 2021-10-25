@@ -10,6 +10,7 @@ const Product = ({ data, productWithDetails = false, passToParent }) => {
         if (data) {
             setProductImage(data.masterProductImg)
             setProductColors(data.sizes[0].colors)
+            reset();
         }
     })
 
@@ -47,6 +48,16 @@ const Product = ({ data, productWithDetails = false, passToParent }) => {
         $('.alert').addClass('alert-success')
         $('.alert').text('Item Added')
     })
+
+    const reset = () => {
+        $('.sizesButtons').children().removeClass('selectedSize');
+        $("#selectedSize").val(null);
+        $('.colorsButtons').children().removeClass('selectedColor');
+        $("#selectedColor").val(null);
+        $('.alert').removeClass('alert-danger')
+        $('.alert').removeClass('alert-success')
+        $('.alert').text('')
+    }
 
     const selectedItem = (item) => {
         passToParent(item);
