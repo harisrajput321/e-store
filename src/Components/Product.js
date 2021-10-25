@@ -12,7 +12,7 @@ const Product = ({ data, productWithDetails = false, passToParent }) => {
             setProductColors(data.sizes[0].colors)
             reset();
         }
-    })
+    }, [data])
 
 
     $('.sizesButtons').on('click', 'button', (e) => {
