@@ -57,7 +57,7 @@ const Product = ({ data, productWithDetails = false, passToParent }) => {
     }
     return (
         <div className="row">
-            <section className={`col-md p-image productImageWrapper`} onClick={() => { selectedItem(data) }}>
+            <section className={`col-md ${productWithDetails ? 'p-image' : ""} productImageWrapper`} onClick={() => { selectedItem(data) }}>
                 <img src={productImage} alt={data.title} />
             </section>
             {

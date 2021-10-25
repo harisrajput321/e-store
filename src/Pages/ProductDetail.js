@@ -24,6 +24,10 @@ const ProductDetail = () => {
         setProduct(item);
     }
 
+    if (!product) {
+        return null
+    }
+
     return (<>
         <Product data={product} productWithDetails={true} />
         <RecommendedProducts products={products} passToParent={getSelectedItem} />
